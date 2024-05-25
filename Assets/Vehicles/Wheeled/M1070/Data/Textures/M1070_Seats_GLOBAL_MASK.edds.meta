@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B96DFDFFB5B9B76F}Assets/Vehicles/Wheeled/M1070/Data/Textures/M1070_Seats_GLOBAL_MASK.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

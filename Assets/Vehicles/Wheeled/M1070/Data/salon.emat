@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{4D336D76B8A6091E}Assets/Vehicles/Wheeled/M1070/Data/Textures/salon_BCR.edds"
+ NMOMap "{75EBD6E461D15B80}Assets/Vehicles/Wheeled/M1070/Data/Textures/salon_NMO.edds"
+}

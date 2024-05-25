@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{4F4C16EC33696184}Prefabs/Vehicles/Wheeled/M923A1/Configs/M1070_Wheel.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

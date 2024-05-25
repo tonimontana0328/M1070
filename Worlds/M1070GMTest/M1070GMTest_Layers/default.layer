@@ -1,0 +1,52 @@
+GenericEntity {
+ components {
+  MeshObject "{5E3E8D7EA9D061B9}" {
+   Object "{D06D051F79CBE2D7}Assets/Vehicles/Wheeled/M1070/M1070_BASE.xob"
+  }
+ }
+ coords 7184.176 137.237 2357.493
+}
+$grp Vehicle : "{5A96647189E077A8}Prefabs/Vehicles/Wheeled/M1000/M1000.et" {
+ M2 {
+  components {
+   SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+    m_fVehicleDestroyDamage 2857.86
+   }
+  }
+  coords 7181.8 137.863 2291.707
+ }
+ M3 {
+  components {
+   SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+    m_fVehicleDestroyDamage 2857.86
+   }
+  }
+  coords 8485.442 150.284 3596.165
+ }
+}
+Vehicle M923A1 : "{9A0D72816DFFDB7F}Prefabs/Vehicles/Wheeled/M923A1/M923A1.et" {
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 11360.7
+  }
+ }
+ coords 7183.085 137.509 2326.026
+}
+Vehicle M1 : "{C61AA0DA23930BD5}Prefabs/Vehicles/Wheeled/M1070/M1070.et" {
+ components {
+  SCR_VehicleSoundComponent "{55C2E66AD4EF2CA6}" {
+   Wheels {
+    VehicleWheelSound R_01 {
+     Filename "{58B4EAD8230C865B}Sounds/Vehicles/Wheeled/Ural4320/Vehicles_Ural4320_Wheel_l_1.acp"
+     SoundPoint PointInfo "{5E3E8D60B0ACE7AC}" {
+      PivotID "v_wheel_L01"
+     }
+    }
+   }
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 5715
+  }
+ }
+ coords 7182.532 137.73 2303.936
+}

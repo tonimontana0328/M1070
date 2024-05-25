@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{703C9CF945F1C9AF}Assets/Vehicles/Wheeled/M1070/Data/Textures/M1070_Seats_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

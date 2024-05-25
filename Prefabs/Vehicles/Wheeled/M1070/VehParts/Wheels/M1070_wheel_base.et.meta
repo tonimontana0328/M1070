@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{821D315C0E2FC89F}Prefabs/Vehicles/Wheeled/M923A1/VehParts/Wheels/M1070_wheel_base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

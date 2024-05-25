@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{4B46125D3AC68FDC}Assets/Vehicles/Wheeled/M1000/Data/Textures/Trailer_Base_VFX.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "1024"
+  }
+ }
+}

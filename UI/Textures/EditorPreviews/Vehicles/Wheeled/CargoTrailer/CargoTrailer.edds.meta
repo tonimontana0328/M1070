@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{A8B89A1693A2FDF0}UI/Textures/EditorPreviews/Vehicles/Wheeled/CargoTrailer/CargoTrailer.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass PS4 : PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass HEADLESS : PC {
+   ColorSpace ToSRGB
+  }
+ }
+}

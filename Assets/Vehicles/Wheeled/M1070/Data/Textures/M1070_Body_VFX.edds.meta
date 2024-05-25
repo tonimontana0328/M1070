@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{98AC9B6595E1ABA5}Assets/Vehicles/Wheeled/M1070/Data/Textures/M1070_Body_VFX.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

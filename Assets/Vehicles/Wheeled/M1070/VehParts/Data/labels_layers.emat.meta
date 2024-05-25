@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{40F375F11B136875}Assets/Vehicles/Wheeled/M1070/VehParts/Data/labels_layers.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

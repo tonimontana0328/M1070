@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7C531875D020205D}Configs/Editor/PlaceableEntities/Vehicles/M1070.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

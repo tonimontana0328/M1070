@@ -1,0 +1,50 @@
+MatPBRMulti {
+ GlobalMCRMap "{2C6DAFCE620CD889}Assets/Vehicles/Wheeled/M1070/Data/Textures/M1070_Body_MCR.edds"
+ OverlayBlackPower 0.848
+ MaskMap "{78569058139991AE}Assets/Vehicles/Wheeled/M1070/Data/Textures/M1070_Body_GLOBAL_MASK.edds"
+ VFXMap "{98AC9B6595E1ABA5}Assets/Vehicles/Wheeled/M1070/Data/Textures/M1070_Body_VFX.edds"
+ GlobalNMOMap "{E8DE9ECDC9851AC9}Assets/Vehicles/Wheeled/M1070/Data/Textures/M1070_Body_NMO.edds"
+ DirtOpacity 0.379
+ DirtLayerSharpness 1.468
+ DirtColor 0.141 0.132 0.115 1
+ DirtRoughness 1.5
+ DirtBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ DirtMaskMap "{82A0289C4982ADA1}Assets/_SharedData/DetailMask/ST_Dirt_Rock_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{5E4A25082EE67D7B}" {
+  TilingU 10
+  TilingV 10
+ }
+ Enabled_4 1
+ Color_4 0.026 0.026 0.026 1
+ BCR_4 "{B141E00CC94C086A}Assets/_SharedData/Rubber/ST_Rubber_Aged01_1m_BCR.edds"
+ NMO_4 "{89995B9E103B5AF4}Assets/_SharedData/Rubber/ST_Rubber_Aged01_1m_NMO.edds"
+ UVTransform_4 MatUVTransform "{5E4A25087C8678C5}" {
+  TilingU 10
+  TilingV 10
+ }
+ Roughness_4 1.2
+ Metalness_4 0
+ Enabled_2 1
+ Color_2 0.06 0.07 0.05 1
+ NMO_2 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ MaskSharpness_2 1.196
+ Mask_2 "{A3B4218CCE57A275}Assets/_SharedData/DetailMask/ST_Paint_peeling_03_Mask1.edds"
+ MaskUVScale_2 7
+ UVTransform_2 MatUVTransform "{5E4A25095D84D8C6}" {
+  TilingU 10
+  TilingV 10
+ }
+ DetNormal_2 0.405
+ Roughness_2 0.718
+ Metalness_2 0.029
+ Color_1 0.048 0.06 0.038 1
+ BCR_1 "{8EADB31D864DD0FC}Assets/_SharedData/Metal/ST_MetalBare_01_BCR.edds"
+ NMO_1 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{5E4A2509502E4AFC}" {
+  TilingU 10
+  TilingV 10
+ }
+ DetNormal_1 0.5
+ Roughness_1 1.36
+ Metalness_1 0
+}

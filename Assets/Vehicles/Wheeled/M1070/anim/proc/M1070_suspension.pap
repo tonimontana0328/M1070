@@ -1,0 +1,902 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 44036
+   name "Signal 43"
+   tl -727.381 477.143
+   res "{070169948E274C63}Assets/Vehicles/Wheeled/M1070/anim/proc/M1070_suspension.siga"
+   inputsport {
+    60 62 64 66 68 70 72 73 84 85
+   }
+   outputsport {
+    61 63 65 67 69 71 74 75 77 82 86
+   }
+   inputvalues {
+    0 0 0 0 0 0 0 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 1 1 1 1 1 1
+   }
+  }
+ }
+ funcs {
+  RotationMakeClass {
+   id 2054
+   name "RotationMake 2054"
+   tl 36 -481
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 44036
+         port 61
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    3078
+   }
+  }
+  RotationSetClass {
+   id 3078
+   name "RotationSet 3078"
+   tl 364 -466
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 2054
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 4102
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  BoneClass {
+   id 4102
+   name "axle_01"
+   version 0
+   tl 36 -560.5
+   outs {
+    3078 6150
+   }
+   bone "v_axle_01"
+  }
+  TranslateMakeClass {
+   id 5126
+   name "TranslateMake 5126"
+   tl 35 -361
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 44036
+         port 63
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    6150
+   }
+  }
+  TranslateSetClass {
+   id 6150
+   name "TranslateSet 6150"
+   tl 366 -351
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 5126
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 4102
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationMakeClass {
+   id 24582
+   name "RotationMake 24582"
+   tl 32.5 -148.75
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 44036
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    25606
+   }
+  }
+  RotationSetClass {
+   id 25606
+   name "RotationSet 25606"
+   tl 333.75 -143.75
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 24582
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 26630
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  BoneClass {
+   id 26630
+   name "axle_02"
+   version 0
+   tl 27.5 -232.5
+   outs {
+    25606 28678
+   }
+   bone "v_axle_02"
+  }
+  TranslateMakeClass {
+   id 27654
+   name "TranslateMake 27654"
+   tl 32.5 -21.25
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 44036
+         port 67
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    28678
+   }
+  }
+  TranslateSetClass {
+   id 28678
+   name "TranslateSet 28678"
+   tl 331.25 -10
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 27654
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 26630
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  TranslateMakeClass {
+   id 29702
+   name "TranslateMake 29702"
+   tl 8.75 308.75
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 44036
+         port 71
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    30726
+   }
+  }
+  TranslateSetClass {
+   id 30726
+   name "TranslateSet 30726"
+   tl 317.5 312.5
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 29702
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 33798
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationMakeClass {
+   id 31750
+   name "RotationMake 31750"
+   tl 13.75 180
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 44036
+         port 69
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    32774
+   }
+  }
+  RotationSetClass {
+   id 32774
+   name "RotationSet 32774"
+   tl 313.75 175
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 31750
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 33798
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  BoneClass {
+   id 33798
+   name "axle_03"
+   version 0
+   tl 18.75 101.25
+   outs {
+    30726 32774
+   }
+   bone "v_axle_03"
+  }
+  RotationMakeClass {
+   id 34822
+   name "RotationMake 34822"
+   tl -6.25 897.25
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 44036
+         port 74
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    35846
+   }
+  }
+  RotationSetClass {
+   id 35846
+   name "RotationSet 35846"
+   tl 287.5 906
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 34822
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 36870
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  BoneClass {
+   id 36870
+   name "steering Left"
+   version 0
+   tl -6.25 823.5
+   outs {
+    35846
+   }
+   bone "v_wheel_L01_rotator"
+  }
+  RotationMakeClass {
+   id 37894
+   name "RotationMake 37894"
+   tl -7.5 1118.5
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 44036
+         port 75
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    38918
+   }
+  }
+  RotationSetClass {
+   id 38918
+   name "RotationSet 38918"
+   tl 285 1129.75
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 37894
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 39942
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  BoneClass {
+   id 39942
+   name "steering Right"
+   version 0
+   tl -6.25 1042.389
+   outs {
+    38918
+   }
+   bone "v_wheel_R01_rotator"
+  }
+  RotationMakeClass {
+   id 40966
+   name "RotationMake 40966"
+   tl -3.778 1385.222
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 44036
+         port 77
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    41990
+   }
+  }
+  RotationSetClass {
+   id 41990
+   name "RotationSet 41990"
+   tl 291.778 1376.778
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 40966
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 43014
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  BoneClass {
+   id 43014
+   name "Bone 43014"
+   version 0
+   tl -8 1286
+   outs {
+    41990
+   }
+   bone "v_steering_wheel_L01_ik_01"
+  }
+  BoneClass {
+   id 45062
+   name "axle_04"
+   version 0
+   tl -6.667 470
+   outs {
+    48134 49158
+   }
+   bone "v_axle_04"
+  }
+  RotationSetClass {
+   id 48134
+   name "RotationSet 48134"
+   tl 308.75 481.25
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 51206
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 45062
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  TranslateSetClass {
+   id 49158
+   name "TranslateSet 49158"
+   tl 318.75 602.5
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 50182
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 45062
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  TranslateMakeClass {
+   id 50182
+   name "TranslateMake 50182"
+   tl 3.75 660
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 44036
+         port 86
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    49158
+   }
+  }
+  RotationMakeClass {
+   id 51206
+   name "RotationMake 51206"
+   tl 1.25 542.5
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 44036
+         port 82
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    48134
+   }
+  }
+ }
+ model "{D06D051F79CBE2D7}Assets/Vehicles/Wheeled/M1070/M1070_BASE.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   3585 3457 3073 3329 3201 2945 2689 2817 2561 2305 2433 2177 1921 2049 1793 1537 1665 1281 1409 1025 897 1153 641 769 385 257 513 1 129
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     1 65536 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 0 0 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     2 65536 262144 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 262144 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 196608 0 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 393216 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 327680 0 458752 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     2 393216 589824 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 589824 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 524288 0 458752 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 720896 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 655360 0 917504 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 851968 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 786432 0 917504 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     2 720896 851968 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 1048576 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 983040 0 1114112 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 1048576 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 1245184 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 1179648 0 1310720 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 1245184 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 1441792 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 1376256 0 1507328 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 1441792 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     2 1638400 1703936 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 1835008 0 1572864 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 1769472 0 1572864 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 1703936 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 1638400 0
+    }
+   }
+  }
+  version 2
+  argsize 51
+ }
+}

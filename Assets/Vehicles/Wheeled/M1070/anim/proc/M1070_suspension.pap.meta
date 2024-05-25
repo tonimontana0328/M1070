@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D9C350EB314548AC}Assets/Vehicles/Wheeled/M1070/anim/proc/M1070_suspension.pap"
+ Configurations {
+  ProcAnimProjectResourceClass PC {
+  }
+  ProcAnimProjectResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimProjectResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimProjectResourceClass PS4 : PC {
+  }
+  ProcAnimProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

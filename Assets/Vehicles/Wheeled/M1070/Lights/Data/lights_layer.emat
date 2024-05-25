@@ -1,0 +1,13 @@
+MatPBRBasic {
+ SpecularIBL 0.212 0.212 0.212 1
+ Emissive 1 1 1 0
+ EmissiveLV 3
+ EmissiveAbsoluteLV 0
+ ApplyAlbedoToEmissive 1
+ Specular 0.212 0.212 0.212 1
+ RoughnessScale 1.755
+ MetalnessScale 0.5
+ DielectricReflectance 0.05
+ EmissiveMap "{DFA04A254D28247C}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Lights_BCR.edds"
+ BCRMap "{DFA04A254D28247C}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Lights_BCR.edds"
+}

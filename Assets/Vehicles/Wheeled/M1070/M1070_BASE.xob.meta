@@ -1,0 +1,226 @@
+MetaFileClass {
+ Name "{D06D051F79CBE2D7}Assets/Vehicles/Wheeled/M1070/M1070_BASE.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{5E4A25048137F55B}" {
+     SourceMaterial "salon"
+     AssignedMaterial "{391EF6E654506956}Assets/Vehicles/Wheeled/M1070/Data/salon.emat"
+    }
+    MaterialAssignClass "{5E4A25048137F566}" {
+     SourceMaterial "M1070_Seats"
+     AssignedMaterial "{A0237C802D3272EB}Assets/Vehicles/Wheeled/M1070/Data/M1070_Seats.emat"
+    }
+    MaterialAssignClass "{5E3E8D65DD7D3A86}" {
+     SourceMaterial "glass"
+     AssignedMaterial "{FBA26D8D3285E525}Assets/Vehicles/Wheeled/M1070/Data/glass.emat"
+    }
+    MaterialAssignClass "{5E4A25048137F53C}" {
+     SourceMaterial "M1070_Body"
+     AssignedMaterial "{58C3CB59A68386DF}Assets/Vehicles/Wheeled/M1070/Data/M1070_Body.emat"
+    }
+    MaterialAssignClass "{5E4A25048137F550}" {
+     SourceMaterial "dashboard_salon"
+     AssignedMaterial "{5C11D96C428CD7DE}Assets/Vehicles/Wheeled/M1070/Data/dashboard_salon.emat"
+    }
+    MaterialAssignClass "{5E4A25048137F55F}" {
+     SourceMaterial "labels"
+     AssignedMaterial "{7F8858E4A3B5626D}Assets/Vehicles/Wheeled/M1070/Data/labels.emat"
+    }
+    MaterialAssignClass "{5E4A25048137F559}" {
+     SourceMaterial "M1070_Opacity"
+     AssignedMaterial "{0FB4302F29A6599C}Assets/Vehicles/Wheeled/M1070/Data/M1070_Opacity.emat"
+    }
+    MaterialAssignClass "{5E4A72D2FADEDAD6}" {
+     SourceMaterial "M1070_Tires"
+     AssignedMaterial "{1D3C5EC9A55A390D}Assets/Vehicles/Wheeled/M1070/Data/M1070_Tires.emat"
+    }
+    MaterialAssignClass "{5E4A9095402A1CB5}" {
+     SourceMaterial "lights_layer"
+     AssignedMaterial "{5465D172FF266764}Assets/Vehicles/Wheeled/M1070/Data/lights_layer.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Osh_m1070_body_color {
+    }
+    MeshParam Osh_m1070_body_door_L {
+    }
+    MeshParam Osh_m1070_body_door_R {
+    }
+    MeshParam Osh_m1070_body_parts {
+    }
+    MeshParam Osh_m1070_body_parts_door_L {
+    }
+    MeshParam Osh_m1070_body_parts_door_R {
+    }
+    MeshParam Osh_m1070_dashboard {
+    }
+    MeshParam Osh_m1070_exhaustcap {
+    }
+    MeshParam Osh_m1070_labels {
+    }
+    MeshParam Osh_m1070_labels_door_L {
+    }
+    MeshParam Osh_m1070_opacity_frame {
+    }
+    MeshParam Osh_m1070_salon {
+    }
+    MeshParam Osh_m1070_salon_door_L {
+    }
+    MeshParam Osh_m1070_salon_door_R {
+    }
+    MeshParam Osh_m1070_salon_steering_wheel {
+    }
+    MeshParam Osh_m1070_seat {
+    }
+    MeshParam Osh_m1070_suspension {
+    }
+    MeshParam Osh_m1070_tire {
+    }
+    MeshParam Osh_m1070_winch {
+    }
+    MeshParam "Osh_m1070_glass.001" {
+    }
+    MeshParam "Osh_m1070_glass.002" {
+    }
+    MeshParam Osh_m1070_lights_Brakes {
+    }
+    MeshParam Osh_m1070_lights_Hazard {
+    }
+    MeshParam Osh_m1070_lights_Head {
+    }
+    MeshParam Osh_m1070_lights_Interior {
+    }
+    MeshParam Osh_m1070_lights_Main {
+    }
+    MeshParam Osh_m1070_lights_Reverse {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_M1070_Base {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_M1070_Base.001" {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_M1070_Base.002" {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_M1070_Base.003" {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_M1070_Base.004" {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_M1070_Base.005" {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_VS_M1070_Base {
+     LayerPreset "VehicleSimple"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_VS_M1070_Base.001" {
+     LayerPreset "VehicleSimple"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_VS_M1070_Base.002" {
+     LayerPreset "VehicleSimple"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_m1070_body_parts_door_L {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_m1070_body_parts_door_R {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Osh_m1070_body {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Osh_m1070_5thWheel {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5E3E8D65D637B530}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5E3E8D65D6375825}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5E3E8D65D637590D}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5E3E8D65D637598E}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5E3E8D65D63759DF}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

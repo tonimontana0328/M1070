@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{391EF6E654506956}Assets/Vehicles/Wheeled/M1070/Data/salon.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C696396E9F658D61}Prefabs/Vehicles/Wheeled/M1000/Lights/Dome_M1000_ES.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

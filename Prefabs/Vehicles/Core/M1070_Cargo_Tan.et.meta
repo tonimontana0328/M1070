@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B812096FF49CE16A}Prefabs/Vehicles/Core/M1070_Cargo_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

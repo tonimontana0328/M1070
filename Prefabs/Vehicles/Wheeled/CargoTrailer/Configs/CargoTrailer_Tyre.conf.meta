@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7E0D8F6EB5777D0F}Prefabs/Vehicles/Wheeled/CargoTrailer/Configs/CargoTrailer_Tyre.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,13 @@
+GenericEntity : "{86988FC7CE493743}Prefabs/Vehicles/Wheeled/M1070/VehParts/M1070_5thWheel.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5E50B6CA5A2A20C2}" {
+     SourceMaterial "M1070_Body"
+     AssignedMaterial "{58824A5098015DAD}Assets/Vehicles/Wheeled/M1070/Data/Tan/M1070_Body_Tan.emat"
+    }
+   }
+  }
+ }
+}

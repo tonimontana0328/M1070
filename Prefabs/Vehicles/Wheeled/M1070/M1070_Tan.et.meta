@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{94DB65B131ED2155}Prefabs/Vehicles/Wheeled/M1070/M1070_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

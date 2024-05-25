@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FBA26D8D3285E525}Assets/Vehicles/Wheeled/M1070/Data/glass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

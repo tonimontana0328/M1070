@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2A1E4015E9FBAC55}Prefabs/Vehicles/Wheeled/M923A1/Lights/Reverse_M1070_ES.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

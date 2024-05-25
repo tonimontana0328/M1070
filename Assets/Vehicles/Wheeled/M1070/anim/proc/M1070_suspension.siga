@@ -1,0 +1,996 @@
+ProcAnimSignalResClass {
+ Inputs {
+  IOPInputValueClass {
+   id 1
+   name "Value 96"
+   tl -8.755 -793.108
+   children {
+    8
+   }
+   value 57.296
+  }
+  IOPInputValueClass {
+   id 11
+   name "Value 106"
+   tl -2.981 -55.834
+   children {
+    34
+   }
+   value 57.296
+  }
+  IOPInputValueClass {
+   id 30
+   name "Value 99"
+   tl -19.231 -400.834
+   children {
+    15
+   }
+   value 57.296
+  }
+  IOPItemInputClass {
+   id 60
+   name "suspension0"
+   tl -758.571 -697.143
+   children {
+    23 41
+   }
+  }
+  IOPItemInputClass {
+   id 62
+   name "suspension1"
+   tl -762.857 -520
+   children {
+    23 41
+   }
+  }
+  IOPItemInputClass {
+   id 64
+   name "suspension2"
+   tl -762.857 -295.714
+   children {
+    21 40
+   }
+  }
+  IOPItemInputClass {
+   id 66
+   name "suspension3"
+   tl -755.714 -121.429
+   children {
+    21 40
+   }
+  }
+  IOPItemInputClass {
+   id 68
+   name "suspension4"
+   tl -744.286 101.429
+   children {
+    6 20
+   }
+  }
+  IOPItemInputClass {
+   id 70
+   name "suspension5"
+   tl -750 240
+   children {
+    6 20
+   }
+  }
+  IOPItemInputClass {
+   id 72
+   name "steering0"
+   tl -558.571 872.857
+   children {
+    31 42 76
+   }
+  }
+  IOPItemInputClass {
+   id 73
+   name "steering1"
+   tl -504.286 1198.571
+   children {
+    7 16 76
+   }
+  }
+  IOPInputValueClass {
+   id 79
+   name "Value 80"
+   tl -12.353 316.68
+   children {
+    83
+   }
+   value 57.296
+  }
+  IOPItemInputClass {
+   id 84
+   name "suspension7"
+   tl -759.372 612.513
+   children {
+    87 88
+   }
+  }
+  IOPItemInputClass {
+   id 85
+   name "suspension6"
+   tl -753.659 473.943
+   children {
+    87 88
+   }
+  }
+ }
+ Ops {
+  IOPItemOpATanClass {
+   id 2
+   name "ATan 94"
+   tl 4.796 55.416
+   children {
+    34
+   }
+   inputs {
+    ConnectionClass connection {
+     id 10
+     port 0
+    }
+   }
+  }
+  IOPItemOpDivClass {
+   id 3
+   name "1/2"
+   tl -261.454 -141.945
+   children {
+    67
+   }
+   inputs {
+    ConnectionClass connection {
+     id 21
+     port 0
+    }
+   }
+   Divisor 2
+  }
+  IOPItemOpSumClass {
+   id 4
+   name "Sum 82"
+   tl 123.581 983.457
+   children {
+    74
+   }
+   inputs {
+    ConnectionClass connection {
+     id 31
+     port 0
+    }
+    ConnectionClass connection {
+     id 42
+     port 0
+    }
+   }
+  }
+  IOPItemOpSumClass {
+   id 6
+   name "Sum 91"
+   tl -444.537 211.749
+   children {
+    35
+   }
+   inputs {
+    ConnectionClass connection {
+     id 70
+     port 0
+    }
+    ConnectionClass connection {
+     id 68
+     port 0
+    }
+   }
+  }
+  IOPItemOpClampMinClass {
+   id 7
+   name "ClampMin 0"
+   tl -140.756 1243.629
+   children {
+    17
+   }
+   inputs {
+    ConnectionClass connection {
+     id 73
+     port 0
+    }
+   }
+  }
+  IOPItemOpMulClass {
+   id 8
+   name "Mul 95"
+   tl 206.939 -689.775
+   children {
+    61
+   }
+   inputs {
+    ConnectionClass connection {
+     id 1
+     port 0
+    }
+    ConnectionClass connection {
+     id 24
+     port 0
+    }
+   }
+  }
+  IOPItemOpATanClass {
+   id 9
+   name "ATan 94"
+   tl -11.454 -290.834
+   children {
+    15
+   }
+   inputs {
+    ConnectionClass connection {
+     id 38
+     port 0
+    }
+   }
+  }
+  IOPItemOpDivClass {
+   id 10
+   name "Div 93"
+   tl -227.426 43.193
+   children {
+    2
+   }
+   inputs {
+    ConnectionClass connection {
+     id 20
+     port 0
+    }
+   }
+   Divisor 1.5
+  }
+  IOPItemOpDivClass {
+   id 12
+   name "Div 93"
+   tl -231.95 -695.331
+   children {
+    24
+   }
+   inputs {
+    ConnectionClass connection {
+     id 23
+     port 0
+    }
+   }
+   Divisor 1.5
+  }
+  IOPItemOpMulClass {
+   id 15
+   name "Mul 95"
+   tl 195.213 -297.501
+   children {
+    65
+   }
+   inputs {
+    ConnectionClass connection {
+     id 30
+     port 0
+    }
+    ConnectionClass connection {
+     id 9
+     port 0
+    }
+   }
+  }
+  IOPItemOpInterpolateClass {
+   id 16
+   name "Interpolate -90 0 -66 0"
+   comment "faux Ackermann right inside"
+   tl -135.756 1345.634
+   ctl 29 100
+   children {
+    17
+   }
+   inputs {
+    ConnectionClass connection {
+     id 73
+     port 0
+    }
+   }
+   "X min" -90
+   "X max" 0
+   "Y min" -66.133
+   "Y max" 0
+  }
+  IOPItemOpSumClass {
+   id 17
+   name "Sum 83"
+   tl 129.831 1303.457
+   children {
+    75
+   }
+   inputs {
+    ConnectionClass connection {
+     id 16
+     port 0
+    }
+    ConnectionClass connection {
+     id 7
+     port 0
+    }
+   }
+  }
+  IOPItemOpSubClass {
+   id 20
+   name "Sub 90"
+   tl -437.537 52.749
+   children {
+    10
+   }
+   inputs {
+    ConnectionClass connection {
+     id 70
+     port 1
+    }
+    ConnectionClass connection {
+     id 68
+     port 0
+    }
+   }
+  }
+  IOPItemOpSumClass {
+   id 21
+   name "Sum 91"
+   tl -460.787 -134.501
+   children {
+    3
+   }
+   inputs {
+    ConnectionClass connection {
+     id 66
+     port 0
+    }
+    ConnectionClass connection {
+     id 64
+     port 0
+    }
+   }
+  }
+  IOPItemOpSubClass {
+   id 23
+   name "Sub 90"
+   tl -442.061 -685.775
+   children {
+    12
+   }
+   inputs {
+    ConnectionClass connection {
+     id 62
+     port 1
+    }
+    ConnectionClass connection {
+     id 60
+     port 0
+    }
+   }
+  }
+  IOPItemOpATanClass {
+   id 24
+   name "ATan 94"
+   tl 0.272 -683.108
+   children {
+    8
+   }
+   inputs {
+    ConnectionClass connection {
+     id 12
+     port 0
+    }
+   }
+  }
+  IOPItemOpDivClass {
+   id 25
+   name "1/2"
+   tl -249.728 -534.219
+   children {
+    63
+   }
+   inputs {
+    ConnectionClass connection {
+     id 41
+     port 0
+    }
+   }
+   Divisor 2
+  }
+  IOPItemOpInterpolateClass {
+   id 31
+   name "Interpolate 0 90 0 66"
+   comment "faux Ackermann left inside"
+   tl -132.006 1037.381
+   ctl 0 -21
+   children {
+    4
+   }
+   inputs {
+    ConnectionClass connection {
+     id 72
+     port 0
+    }
+   }
+   "X max" 90
+   "Y max" 66.133
+  }
+  IOPItemOpMulClass {
+   id 34
+   name "Mul 95"
+   tl 211.463 48.749
+   children {
+    69
+   }
+   inputs {
+    ConnectionClass connection {
+     id 11
+     port 0
+    }
+    ConnectionClass connection {
+     id 2
+     port 0
+    }
+   }
+  }
+  IOPItemOpDivClass {
+   id 35
+   name "1/2"
+   tl -245.204 204.305
+   children {
+    71
+   }
+   inputs {
+    ConnectionClass connection {
+     id 6
+     port 0
+    }
+   }
+   Divisor 2
+  }
+  IOPItemOpDivClass {
+   id 38
+   name "Div 93"
+   tl -243.676 -303.057
+   children {
+    9
+   }
+   inputs {
+    ConnectionClass connection {
+     id 40
+     port 0
+    }
+   }
+   Divisor 1.5
+  }
+  IOPItemOpSubClass {
+   id 40
+   name "Sub 90"
+   tl -453.787 -293.501
+   children {
+    38
+   }
+   inputs {
+    ConnectionClass connection {
+     id 66
+     port 1
+    }
+    ConnectionClass connection {
+     id 64
+     port 0
+    }
+   }
+  }
+  IOPItemOpSumClass {
+   id 41
+   name "Sum 91"
+   tl -449.061 -526.775
+   children {
+    25
+   }
+   inputs {
+    ConnectionClass connection {
+     id 62
+     port 0
+    }
+    ConnectionClass connection {
+     id 60
+     port 0
+    }
+   }
+  }
+  IOPItemOpClampMaxClass {
+   id 42
+   name "ClampMax 0"
+   tl -138.256 926.126
+   children {
+    4
+   }
+   inputs {
+    ConnectionClass connection {
+     id 72
+     port 0
+    }
+   }
+   Max 0
+  }
+  IOPItemOpMaxClass {
+   id 76
+   name "Max 76"
+   tl -150 835.556
+   children {
+    77
+   }
+   inputs {
+    ConnectionClass connection {
+     id 73
+     port 0
+    }
+    ConnectionClass connection {
+     id 72
+     port 0
+    }
+   }
+  }
+  IOPItemOpDivClass {
+   id 78
+   name "1/2"
+   tl -254.576 576.818
+   children {
+    86
+   }
+   inputs {
+    ConnectionClass connection {
+     id 88
+     port 0
+    }
+   }
+   Divisor 2
+  }
+  IOPItemOpATanClass {
+   id 80
+   name "ATan 94"
+   tl -4.576 427.93
+   children {
+    83
+   }
+   inputs {
+    ConnectionClass connection {
+     id 81
+     port 0
+    }
+   }
+  }
+  IOPItemOpDivClass {
+   id 81
+   name "Div 93"
+   tl -236.799 415.706
+   children {
+    80
+   }
+   inputs {
+    ConnectionClass connection {
+     id 87
+     port 0
+    }
+   }
+   Divisor 1.5
+  }
+  IOPItemOpMulClass {
+   id 83
+   name "Mul 95"
+   tl 202.09 421.262
+   children {
+    82
+   }
+   inputs {
+    ConnectionClass connection {
+     id 79
+     port 0
+    }
+    ConnectionClass connection {
+     id 80
+     port 0
+    }
+   }
+  }
+  IOPItemOpSubClass {
+   id 87
+   name "Sub 90"
+   tl -446.91 425.262
+   children {
+    81
+   }
+   inputs {
+    ConnectionClass connection {
+     id 84
+     port 1
+    }
+    ConnectionClass connection {
+     id 85
+     port 0
+    }
+   }
+  }
+  IOPItemOpSumClass {
+   id 88
+   name "Sum 91"
+   tl -453.91 584.263
+   children {
+    78
+   }
+   inputs {
+    ConnectionClass connection {
+     id 84
+     port 0
+    }
+    ConnectionClass connection {
+     id 85
+     port 0
+    }
+   }
+  }
+ }
+ Outputs {
+  IOPItemOutputClass {
+   id 61
+   name "suspension0_out"
+   tl 452.858 -690
+   input 8
+  }
+  IOPItemOutputClass {
+   id 63
+   name "suspension1_out"
+   tl 432.857 -524.286
+   input 25
+  }
+  IOPItemOutputClass {
+   id 65
+   name "suspension2_out"
+   tl 435.714 -275.714
+   input 15
+  }
+  IOPItemOutputClass {
+   id 67
+   name "suspension3_out"
+   tl 437.143 -152.857
+   input 3
+  }
+  IOPItemOutputClass {
+   id 69
+   name "suspension4_out"
+   tl 444.286 67.143
+   input 34
+  }
+  IOPItemOutputClass {
+   id 71
+   name "suspension5_out"
+   tl 442.857 204.286
+   input 35
+  }
+  IOPItemOutputClass {
+   id 74
+   name "steering0"
+   tl 359.524 972.699
+   input 4
+  }
+  IOPItemOutputClass {
+   id 75
+   name "steering1"
+   tl 369.524 1284.127
+   input 17
+  }
+  IOPItemOutputClass {
+   id 77
+   name "steering01max"
+   tl 343.333 833.333
+   input 76
+  }
+  IOPItemOutputClass {
+   id 82
+   name "suspension6_out"
+   tl 434.913 439.656
+   input 83
+  }
+  IOPItemOutputClass {
+   id 86
+   name "suspension7_out"
+   tl 433.484 576.799
+   input 78
+  }
+ }
+ compiled IOPCompiledClass {
+  visited {
+   1669 1541 3851 3207 1286 3719 3463 3335 1413 3595 1158 1285 1287 519 1419 902 1157 3083 1030 2951 2183 267 774 1029 901 1543 903 7 395 2439 646 773 645 2695 2567 775 1675 135 390 517 389 2827 2055 134 1799 1031 1927 261 1163 262 133 2315 518 5 651 6
+  }
+  ins {
+   IOPCompiledIn {
+    data {
+     1 327683
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 1179651
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 589827
+    }
+   }
+   IOPCompiledIn {
+    data {
+     2 917507 1441795
+    }
+   }
+   IOPCompiledIn {
+    data {
+     2 917507 1441795
+    }
+   }
+   IOPCompiledIn {
+    data {
+     2 851971 1376259
+    }
+   }
+   IOPCompiledIn {
+    data {
+     2 851971 1376259
+    }
+   }
+   IOPCompiledIn {
+    data {
+     2 196611 786435
+    }
+   }
+   IOPCompiledIn {
+    data {
+     2 196611 786435
+    }
+   }
+   IOPCompiledIn {
+    data {
+     3 1114115 1507331 1572867
+    }
+   }
+   IOPCompiledIn {
+    data {
+     3 262147 655363 1572867
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 1835011
+    }
+   }
+   IOPCompiledIn {
+    data {
+     2 1900547 1966083
+    }
+   }
+   IOPCompiledIn {
+    data {
+     2 1900547 1966083
+    }
+   }
+  }
+  ops {
+   IOPCompiledOp {
+    data {
+     1 1179651 2 458753 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 196610 2 851969 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 393218 4 1114113 0 1507329 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 1245187 4 524288 0 458752 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 720899 2 655360 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 2 4 0 0 983041 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 589827 2 1310721 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 3 2 786433 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 983043 2 917505 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 131074 4 131072 0 393217 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 720899 2 655360 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 458754 4 655361 0 262145 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 458755 4 524288 1 458752 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 65539 4 393216 0 327680 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 524291 4 262144 1 196608 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 327683 2 524289 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 65538 2 1441793 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 131075 2 589824 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 262146 4 65536 0 1 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 327682 2 196609 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 393219 2 1376257 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 1310723 4 393216 1 327680 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 1048579 4 262144 0 196608 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 131075 2 589824 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 524290 4 655360 0 589824 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 655362 2 1966081 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 1835011 2 1769473 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 1703939 2 1900545 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 589826 4 720896 0 1703937 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 1769475 4 786432 1 851968 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 1638403 4 786432 0 851968 0
+    }
+   }
+  }
+  outs {
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+  }
+  processed 56
+  version 2
+ }
+}

@@ -1,0 +1,14 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{CD8C642C300C4648}Assets/Vehicles/Wheeled/M1070/VehParts/M1070_5thWheel.xob"
+  }
+  SCR_HitZoneContainerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone SpareTireHolder : "{000477F2B739E64E}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_HZ_vehpart.conf" {
+    }
+   }
+  }
+ }
+}

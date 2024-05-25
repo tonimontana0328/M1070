@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3AA4D286F5571797}Worlds/M1070GMTest/M1070GMTest.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

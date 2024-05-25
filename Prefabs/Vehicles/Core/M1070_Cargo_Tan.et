@@ -1,0 +1,17 @@
+GenericEntity : "{6B48AED4DF4F56F0}Prefabs/Vehicles/Core/M1070_Cargo.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5E50B6C9AE35BFD6}" {
+     SourceMaterial "Cargo_EXT"
+     AssignedMaterial "{A0F90DCE855256D5}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_01_10ft_US_Tan.emat"
+    }
+    MaterialAssignClass "{5E50B6C9AE35BFED}" {
+     SourceMaterial "Cargo_Mlod"
+     AssignedMaterial "{7F1B31D47F78928F}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_01_US_LOD.emat"
+    }
+   }
+  }
+ }
+}

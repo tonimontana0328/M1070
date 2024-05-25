@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{788012F3AF15A122}Configs/EntityCatalog/US/US_Vehicles.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

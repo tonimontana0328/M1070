@@ -1,0 +1,9 @@
+GameEntity : "{A50B7F75B249F351}Prefabs/Vehicles/Core/Lights/VehicleEmissiveSurface_Base.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{44BE7ED3A4F3503A}Assets/Vehicles/Wheeled/M1070/Lights/M1070_Lights_Head.xob"
+  }
+ }
+ coords 1.16 0.997 -16.196
+}

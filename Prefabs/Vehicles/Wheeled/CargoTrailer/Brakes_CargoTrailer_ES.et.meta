@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{EDFFF2F65AF28871}Prefabs/Vehicles/Wheeled/M1000/Lights/Brakes_CaroTrailer_ES.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

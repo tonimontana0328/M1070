@@ -1,0 +1,22 @@
+MatPBRMulti {
+ GlobalMCRMap "{766FFF72DF196048}Assets/Vehicles/Wheeled/M1000/Data/Textures/Trailer_Tire_MCR.edds"
+ VFXMap "{C2AECBD928F41364}Assets/Vehicles/Wheeled/M1000/Data/Textures/Trailer_Tire_VFX.edds"
+ GlobalNMOMap "{B2DCCE717490A208}Assets/Vehicles/Wheeled/M1000/Data/Textures/Trailer_Tire_NMO.edds"
+ DirtOpacity 0.769
+ DirtLayerSharpness 0.363
+ DirtColor 0.202 0.182 0.153 1
+ DirtRoughness 1
+ DirtBCRMap "{1624A684A875CD76}Assets/_SharedData/Concrete/ST_Concrete_Bare_01_BCR.edds"
+ DirtMaskMap "{490DFFF4475F7EC7}Assets/_SharedData/DetailMask/ST_Dirt_09_Mask1.edds"
+ DirtUVTransform MatUVTransform "{5E48C31033D2F4BC}" {
+  TilingU 7
+  TilingV 7
+ }
+ Color_1 0.386 0.386 0.386 1
+ BCR_1 "{B141E00CC94C086A}Assets/_SharedData/Rubber/ST_Rubber_Aged01_1m_BCR.edds"
+ NMO_1 "{89995B9E103B5AF4}Assets/_SharedData/Rubber/ST_Rubber_Aged01_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{5E48C3106D7B8682}" {
+  TilingU 6
+  TilingV 6
+ }
+}

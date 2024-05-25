@@ -1,0 +1,50 @@
+MetaFileClass {
+ Name "{CD8C642C300C4648}Assets/Vehicles/Wheeled/M1070/VehParts/M1070_5thWheel.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{5E4A250CC67DDD86}" {
+     SourceMaterial "M1070_Body"
+     AssignedMaterial "{58C3CB59A68386DF}Assets/Vehicles/Wheeled/M1070/Data/M1070_Body.emat"
+    }
+    MaterialAssignClass "{5E4A250CC67DDD93}" {
+     SourceMaterial "labels"
+     AssignedMaterial "{7F8858E4A3B5626D}Assets/Vehicles/Wheeled/M1070/Data/labels.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "Osh_m1070_suspension.002" {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Osh_m1070_5thWheel {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5E482E6EDDCC6685}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5E482E6EDDCC0DE7}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5E482E6EDDCC0E88}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5E482E6EDDCC0ED8}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5E482E6EDDCC0F1B}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

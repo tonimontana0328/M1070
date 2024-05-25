@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{661C42921476F84A}Assets/Vehicles/Wheeled/M1070/Data/Textures/M1070_Opacity_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

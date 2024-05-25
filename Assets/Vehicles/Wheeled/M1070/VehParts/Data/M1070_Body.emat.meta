@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B4320B5D07AAFDBD}Assets/Vehicles/Wheeled/M1070/VehParts/Data/M1070_Body.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

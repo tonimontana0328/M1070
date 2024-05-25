@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FCE95B675D8E5C91}Prefabs/Vehicles/Wheeled/M923A1/Dst/M1070_window_03.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

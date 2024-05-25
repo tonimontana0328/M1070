@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{06C38F8F0FE4DC5D}Assets/Vehicles/Wheeled/M1070/Data/Textures/labels_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "1024"
+  }
+ }
+}

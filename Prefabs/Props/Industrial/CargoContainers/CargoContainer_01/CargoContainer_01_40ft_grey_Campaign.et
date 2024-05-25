@@ -1,0 +1,32 @@
+GenericEntity : "{887780D497AADE00}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_40ft_Base.et" {
+ ID "55DAD3EB5034A6CB"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{5E4AE6D609125E60}" {
+     SourceMaterial "Cargo_EXT"
+     AssignedMaterial "{7A11B91FEDCE13C8}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_01_10ft_Grey.emat"
+    }
+    MaterialAssignClass "{5E4AE6D609125E6E}" {
+     SourceMaterial "Cargo_Mlod"
+     AssignedMaterial "{632A904EBAE1CB63}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_01_Grey_LOD.emat"
+    }
+   }
+  }
+  Hierarchy "{5E4AE6D7E9FE8DEE}" {
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Layers 16826432
+   Mass 20000
+   CenterOfMass 0 1 0
+   ResponseIndex "HugeDestructible"
+   Static 0
+  }
+  SCR_CampaignBuildingProviderComponent "{5E4E20D9C34FE42F}" {
+  }
+  SCR_CampaignSuppliesComponent "{5E4E20D9C65797A6}" {
+   m_iSuppliesMax 4000
+  }
+ }
+ coords -14.263 4.948 2.925
+}

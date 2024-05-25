@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7B2FF8A2AE6BCDAC}Prefabs/Vehicles/Wheeled/M923A1/Lights/Headlight_M1070_ES.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

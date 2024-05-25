@@ -1,0 +1,25 @@
+MetaFileClass {
+ Name "{367D12F7D129C39F}Assets/Vehicles/Wheeled/M1070/Data/Textures/dashboard_salon_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+ }
+}

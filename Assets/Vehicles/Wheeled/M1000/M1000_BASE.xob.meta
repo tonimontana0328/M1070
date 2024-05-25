@@ -1,0 +1,156 @@
+MetaFileClass {
+ Name "{F7B642FC375A9BA4}Assets/Vehicles/Wheeled/M1000/M1000_BASE.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{5E485CC7B7B0C09D}" {
+     SourceMaterial "red_warning"
+     AssignedMaterial "{9409C69255FE3E14}Assets/Vehicles/Wheeled/M1000/Data/red_warning.emat"
+    }
+    MaterialAssignClass "{5E48C317CE59B35D}" {
+     SourceMaterial "Trailer_Base"
+     AssignedMaterial "{1A43EFE51EAE4388}Assets/Vehicles/Wheeled/M1000/Data/Trailer_Base.emat"
+    }
+    MaterialAssignClass "{5E48C317CE59B371}" {
+     SourceMaterial "Trailer_Tire"
+     AssignedMaterial "{2B971B6374089BA5}Assets/Vehicles/Wheeled/M1000/Data/Trailer_Tire.emat"
+    }
+   }
+   MeshParams {
+    MeshParam trailer_main {
+    }
+    MeshParam trailer_ramps {
+    }
+    MeshParam trailer_spare {
+    }
+    MeshParam trailer_supports {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Ramp_1 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{EB387D1072E08951}Common/Materials/Game/Metal/metal_7mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Ramp_2 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{EB387D1072E08951}Common/Materials/Game/Metal/metal_7mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Trailer_1 {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Trailer_2 {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Ramp_1 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{EB387D1072E08951}Common/Materials/Game/Metal/metal_7mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Ramp_2 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{EB387D1072E08951}Common/Materials/Game/Metal/metal_7mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Trailer_1 {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Trailer_2 {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Trailer_3 {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Trailer_4 {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Trailer_5 {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Trailer_6 {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_trailer_main {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{EB387D1072E08951}Common/Materials/Game/Metal/metal_7mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5E485CC7B7E472D2}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5E485CC7B7E473E5}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5E485CC7B7E46C09}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5E485CC7B7E46C2F}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5E485CC7B7E46C40}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

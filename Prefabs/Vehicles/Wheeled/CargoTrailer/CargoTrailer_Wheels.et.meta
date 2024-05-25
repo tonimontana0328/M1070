@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/M1000/CargoTrailer_Wheels.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

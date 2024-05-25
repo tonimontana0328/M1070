@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{B8E212FB47E81E7E}Assets/Vehicles/Wheeled/M1000/Data/Textures/Trailer_Base_GLOBAL_MASK.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "512"
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "512"
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "512"
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "512"
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "512"
+  }
+ }
+}

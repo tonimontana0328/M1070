@@ -1,0 +1,13 @@
+GenericEntity : "{821D315C0E2FC89F}Prefabs/Vehicles/Wheeled/M1070/VehParts/Wheels/M1070_wheel_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5E50B6CA5FDA1642}" {
+     SourceMaterial "M1070_Body"
+     AssignedMaterial "{58824A5098015DAD}Assets/Vehicles/Wheeled/M1070/Data/Tan/M1070_Body_Tan.emat"
+    }
+   }
+  }
+ }
+}

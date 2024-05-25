@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{75EBD6E461D15B80}Assets/Vehicles/Wheeled/M1070/Data/Textures/salon_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "1024"
+  }
+ }
+}

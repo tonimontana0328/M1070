@@ -1,0 +1,13 @@
+GenericEntity : "{75BE743C3E6B8688}Prefabs/Vehicles/Wheeled/M1000/M1000_wheel_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5E50B6CBC21F02D7}" {
+     SourceMaterial "Trailer_Base"
+     AssignedMaterial "{945525FBC2254ED4}Assets/Vehicles/Wheeled/M1000/Data/Tan/Trailer_Base_Tan.emat"
+    }
+   }
+  }
+ }
+}

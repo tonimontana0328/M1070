@@ -1,0 +1,35 @@
+MetaFileClass {
+ Name "{ED49E3BE162BA225}Assets/Vehicles/Wheeled/M1070/Lights/M1070_Lights_Brakes.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5E4A72D2362F8460}" {
+     SourceMaterial "lights_layer"
+     AssignedMaterial "{8CBE0081766E847C}Assets/Vehicles/Wheeled/M1070/Lights/Data/lights_layer.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Osh_m1070_lights_Brakes {
+    }
+   }
+   Common TXOCommonClass "{5E4A72D2363411E6}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5E4A72D2363412A2}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5E4A72D2363412D4}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5E4A72D2363412F5}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5E4A72D236341314}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

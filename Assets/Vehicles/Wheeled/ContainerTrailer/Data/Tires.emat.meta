@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{01EEF027F5457B5A}Assets/Vehicles/Wheeled/ContainerTrailer/Data/Tires.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,54 @@
+Vehicle M1 : "{5A96647189E077A8}Prefabs/Vehicles/Wheeled/M1000/M1000.et" {
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 2857.86
+  }
+ }
+ coords 121.082 1 147.66
+}
+Vehicle CargoTrailer_Tan1 : "{745FDB71965521B1}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Tan.et" {
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 2857.86
+  }
+ }
+ coords 113.772 1 113.912
+}
+Vehicle M1070_Tan1 : "{94DB65B131ED2155}Prefabs/Vehicles/Wheeled/M1070/M1070_Tan.et" {
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 7143.57
+  }
+ }
+ coords 97.827 1 135.797
+}
+Vehicle M923A1 : "{9A0D72816DFFDB7F}Prefabs/Vehicles/Wheeled/M923A1/M923A1.et" {
+ coords 90.528 1 154.491
+}
+Vehicle M1000_Tan1 : "{9B4F627EACACF71D}Prefabs/Vehicles/Wheeled/M1000/M1000_Tan.et" {
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 2857.86
+  }
+ }
+ coords 97.859 1 124.562
+}
+Vehicle CargoTrailer1 : "{A50345677EFE0ED6}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer.et" {
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 2857.86
+  }
+ }
+ coords 102.177 1 139.557
+}
+Vehicle Lowboy1 : "{A6B8DDE4F2C658D3}Prefabs/Vehicles/Wheeled/Lowboy/Lowboy.et" {
+ coords 108.736 1 135.096
+}
+Vehicle M2 : "{C61AA0DA23930BD5}Prefabs/Vehicles/Wheeled/M1070/M1070.et" {
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 7143.57
+  }
+ }
+ coords 102.273 1 149.528
+}

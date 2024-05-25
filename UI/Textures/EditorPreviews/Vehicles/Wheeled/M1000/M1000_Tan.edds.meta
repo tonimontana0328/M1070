@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{0306F7D58D735671}UI/Textures/EditorPreviews/Vehicles/Wheeled/M1000/M1000_Tan.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass PS4 : PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass HEADLESS : PC {
+   ColorSpace ToSRGB
+  }
+ }
+}

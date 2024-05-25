@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{070169948E274C63}Assets/Vehicles/Wheeled/M1070/anim/proc/M1070_suspension.siga"
+ Configurations {
+  ProcAnimSignalResourceClass PC {
+  }
+  ProcAnimSignalResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimSignalResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimSignalResourceClass PS4 : PC {
+  }
+  ProcAnimSignalResourceClass HEADLESS : PC {
+  }
+ }
+}

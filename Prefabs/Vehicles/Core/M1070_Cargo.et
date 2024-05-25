@@ -1,0 +1,160 @@
+GenericEntity : "{278E487E19D82680}Prefabs/Vehicles/Core/Vehicle_Cargo_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{E6D1554A7AA97ADE}Assets/Props/Industrial/CargoContainer_01/CargoContainer_01_40ft.xob"
+   Materials {
+    MaterialAssignClass "{5E50B6C9AE35BFD6}" {
+     SourceMaterial "Cargo_EXT"
+     AssignedMaterial "{36D9EECF3E50CA06}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_01_10ft_US.emat"
+    }
+    MaterialAssignClass "{5E50B6C9AE35BFED}" {
+     SourceMaterial "Cargo_Mlod"
+     AssignedMaterial "{7F1B31D47F78928F}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_01_US_LOD.emat"
+    }
+   }
+  }
+  RigidBody "{4B42E71692C2FB79}" {
+   Layers 49216
+  }
+  SCR_BaseCompartmentManagerComponent "{2CD4A765A7D52986}" {
+   Enabled 0
+  }
+  SCR_CampaignBuildingProviderComponent "{5E4E4200BAB8BC87}" {
+   m_bUserActionActivationOnly 1
+   m_fBuildingRadius 35
+   m_iRank PRIVATE
+  }
+  SCR_CampaignSuppliesComponent "{5E4E4200BAB8BC83}" {
+   m_iSuppliesMax 3000
+  }
+  ActionsManagerComponent "{2CD4A765B4482F53}" {
+   ActionContexts {
+    UserActionContext "{5E4E45F1FC482066}" {
+     ContextName "door_rear"
+     Position PointInfo "{5E4E45F1C06065BD}" {
+      Offset 0 0.6008 6.2301
+     }
+    }
+   }
+   additionalActions {
+    SCR_CampaignLoadSuppliesUserAction "{5E4E4200BAB8BC8A}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E4E4200BAB8BC94}" {
+     }
+     VisibilityRange 4
+     Duration 10
+     "Sort Priority" 1
+    }
+    SCR_CampaignLoadSuppliesUserAction "{5E4E4200BAB8BC96}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E4E4200BAB8BC91}" {
+     }
+     VisibilityRange 4
+     Duration 5
+     "Sort Priority" 3
+     m_iSuppliesToLoad 500
+    }
+    SCR_CampaignLoadSuppliesUserAction "{5E4E4200BAB95D38}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E4E4200BAB95D3A}" {
+     }
+     VisibilityRange 4
+     Duration 2
+     "Sort Priority" 4
+     m_iSuppliesToLoad 200
+    }
+    SCR_CampaignLoadSuppliesUserAction "{5E4E4200BAB95D3B}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E4E4200BAB93964}" {
+     }
+     VisibilityRange 4
+     Duration 1
+     "Sort Priority" 5
+     m_iSuppliesToLoad 100
+    }
+    SCR_CampaignUnloadSuppliesUserAction "{5E4E4200BAB9396B}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E4E4200BAB93969}" {
+      Name ""
+     }
+     VisibilityRange 4
+     Duration 10
+     "Sort Priority" 6
+     m_iSuppliesToUnload 1000
+    }
+    SCR_CampaignUnloadSuppliesUserAction "{5E4E4200BAB93968}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E4E4200BAB9A8D6}" {
+     }
+     VisibilityRange 4
+     Duration 5
+     "Sort Priority" 7
+     m_iSuppliesToUnload 500
+    }
+    SCR_CampaignUnloadSuppliesUserAction "{5E4E4200BAB9A8D1}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E4E4200BABA65DB}" {
+     }
+     VisibilityRange 4
+     Duration 2
+     "Sort Priority" 8
+     m_iSuppliesToUnload 200
+    }
+    SCR_CampaignUnloadSuppliesUserAction "{5E4E4200BABA65DA}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E4E4200BABA65D9}" {
+     }
+     VisibilityRange 4
+     Duration 1
+     "Sort Priority" 9
+     m_iSuppliesToUnload 100
+    }
+    SCR_CampaignLoadingSuppliesUserAction "{5E4E4200BABA0755}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E4E4200BABA0754}" {
+     }
+     VisibilityRange 4
+     "Sort Priority" 1
+    }
+    SCR_CampaignUnloadingSuppliesUserAction "{5E4E4200BABA076B}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E4E4200BABAA500}" {
+     }
+     VisibilityRange 4
+     "Sort Priority" 2
+    }
+    SCR_CampaignBuildingStartUserAction "{5E4E4200BABAA501}" {
+     ParentContextList {
+      "door_rear"
+     }
+     UIInfo UIInfo "{5E4E4200BABAA502}" {
+     }
+     VisibilityRange 4
+     Duration 1.5
+     "Sort Priority" 11
+    }
+   }
+  }
+ }
+}

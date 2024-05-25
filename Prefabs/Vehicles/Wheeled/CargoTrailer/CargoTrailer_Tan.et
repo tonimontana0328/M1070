@@ -1,0 +1,31 @@
+Vehicle : "{A50345677EFE0ED6}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5E50B6C87BACA79B}" {
+     SourceMaterial "Frame"
+     AssignedMaterial "{8462DAC08BD72DF3}Assets/Vehicles/Wheeled/ContainerTrailer/Data/Frame_Tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Cargo Trailer Tan"
+    m_Image "{FC11279924583A00}UI/Textures/EditorPreviews/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Tan.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     11 123 54
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Container {
+     Prefab "{B812096FF49CE16A}Prefabs/Vehicles/Core/M1070_Cargo_Tan.et"
+    }
+   }
+  }
+ }
+}

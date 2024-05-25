@@ -1,0 +1,8 @@
+GenericEntity : "{6DBA4AA19CA00AA9}Prefabs/Vehicles/Wheeled/M923A1/Dst/M1070_window_base.et" {
+ ID "54ACA4E7EDB33945"
+ components {
+  MeshObject "{54ACA4E7F43678F8}" {
+   Object "{30D4221EA7A551F5}Assets/Vehicles/Wheeled/M1070/Dst/M1070_Window_06.xob"
+  }
+ }
+}

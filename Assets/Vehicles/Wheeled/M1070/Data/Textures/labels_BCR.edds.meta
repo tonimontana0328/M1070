@@ -1,0 +1,25 @@
+MetaFileClass {
+ Name "{3E1B341DD6938EC3}Assets/Vehicles/Wheeled/M1070/Data/Textures/labels_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+ }
+}

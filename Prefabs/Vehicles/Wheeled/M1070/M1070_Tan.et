@@ -1,0 +1,72 @@
+Vehicle : "{C61AA0DA23930BD5}Prefabs/Vehicles/Wheeled/M1070/M1070.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5E50B6CAAAF4831A}" {
+     SourceMaterial "M1070_Body"
+     AssignedMaterial "{58824A5098015DAD}Assets/Vehicles/Wheeled/M1070/Data/Tan/M1070_Body_Tan.emat"
+    }
+    MaterialAssignClass "{5E50B6CAAAF48338}" {
+     SourceMaterial "M1070_Opacity"
+     AssignedMaterial "{0352BECFC46D8BAC}Assets/Vehicles/Wheeled/M1070/Data/Tan/M1070_Opacity_Tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "M1070 Truck Tan"
+    m_Image "{24DDB036C3E22F02}UI/Textures/EditorPreviews/Vehicles/Wheeled/M1070/M1070_Tan.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels +{
+    }
+    m_aOccupantFillCompartmentTypes +{
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{5E50B6CB77C6DB47}" {
+      m_BudgetType AI
+      m_Value 1
+     }
+    }
+    m_aPassengerEntityBudgetCost {
+     SCR_EntityBudgetValue "{5E50B6CB77C75F61}" {
+      m_BudgetType AI
+      m_Value 4
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_L01 {
+     Prefab "{B22E5BD8AE26EFC5}Prefabs/Vehicles/Wheeled/M1070/VehParts/Wheels/M1070_wheel_base_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Prefab "{B22E5BD8AE26EFC5}Prefabs/Vehicles/Wheeled/M1070/VehParts/Wheels/M1070_wheel_base_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{B22E5BD8AE26EFC5}Prefabs/Vehicles/Wheeled/M1070/VehParts/Wheels/M1070_wheel_base_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{B22E5BD8AE26EFC5}Prefabs/Vehicles/Wheeled/M1070/VehParts/Wheels/M1070_wheel_base_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_L03 {
+     Prefab "{B22E5BD8AE26EFC5}Prefabs/Vehicles/Wheeled/M1070/VehParts/Wheels/M1070_wheel_base_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R03 {
+     Prefab "{B22E5BD8AE26EFC5}Prefabs/Vehicles/Wheeled/M1070/VehParts/Wheels/M1070_wheel_base_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_L04 {
+     Prefab "{B22E5BD8AE26EFC5}Prefabs/Vehicles/Wheeled/M1070/VehParts/Wheels/M1070_wheel_base_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R04 {
+     Prefab "{B22E5BD8AE26EFC5}Prefabs/Vehicles/Wheeled/M1070/VehParts/Wheels/M1070_wheel_base_Tan.et"
+    }
+    RegisteringComponentSlotInfo FithWheel {
+     Prefab "{610EEBCFAD5430EA}Prefabs/Vehicles/Wheeled/M1070/VehParts/M1070_5thWheel_Tan.et"
+    }
+   }
+  }
+ }
+}

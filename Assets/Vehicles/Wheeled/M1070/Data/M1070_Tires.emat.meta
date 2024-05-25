@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1D3C5EC9A55A390D}Assets/Vehicles/Wheeled/M1070/Data/M1070_Tires.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

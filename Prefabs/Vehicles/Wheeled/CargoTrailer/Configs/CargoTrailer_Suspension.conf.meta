@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3C6F7762CD8AF73F}Prefabs/Vehicles/Wheeled/CargoTrailer/Configs/CargoTrailer_Suspension.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

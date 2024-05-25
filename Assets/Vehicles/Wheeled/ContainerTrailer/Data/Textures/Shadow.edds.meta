@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6C755EC4BB4E53FE}Assets/Vehicles/Wheeled/ContainerTrailer/Data/Textures/Shadow.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,9 @@
+MatDeferredDecals {
+ Texture "{2A1F0C4BD17B95CA}Assets/Vehicles/Wheeled/M1070/Data/Textures/M1070_Shadow.edds"
+ Intensity 0.8
+ FadeProjection 0.5
+ FadeProjectionOpposite 0.5
+ FadeAngleDir 0 1 0
+ FadeAngleStart 20
+ FadeAngleEnd 90
+}
