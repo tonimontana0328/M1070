@@ -1,6 +1,0 @@
-MatPBRBasic {
- Color 0.25 0.25 0.25 1
- RoughnessScale 1.4
- BCRMap "{DF9504CB6E3C8DE1}Assets/Vehicles/Wheeled/ContainerTrailer/Data/Textures/Tires_BCR.edds"
- NMOMap "{E74DBF59B74BDF7F}Assets/Vehicles/Wheeled/ContainerTrailer/Data/Textures/Tires_NMO.edds"
-}

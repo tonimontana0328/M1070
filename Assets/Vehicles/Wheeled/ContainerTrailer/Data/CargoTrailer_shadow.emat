@@ -1,8 +1,0 @@
-MatDeferredDecals {
- Texture "{6C755EC4BB4E53FE}Assets/Vehicles/Wheeled/ContainerTrailer/Data/Textures/Shadow.edds"
- FadeProjection 0.5
- FadeProjectionOpposite 0.5
- FadeAngleDir 0 1 0
- FadeAngleStart 20
- FadeAngleEnd 90
-}
