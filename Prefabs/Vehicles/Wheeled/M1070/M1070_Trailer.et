@@ -18,9 +18,29 @@ Vehicle : "{C61AA0DA23930BD5}Prefabs/Vehicles/Wheeled/M1070/M1070.et" {
     }
    }
   }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     PassengerPositionInfo EntitySlotInfo "{A1CB25848A3D93A8}" {
+      Offset 0 0 0.03
+     }
+    }
+   }
+  }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_Image "{DD019B91C80F61D1}Assets/Images/ArmaReforgerWorkbenchSteamDiag_gleEN1Ya4Q.edds"
+   }
+  }
+  CarProcAnimComponent "{A201E6A6F82F2CDA}" {
+   Parameters {
+    ProcAnimParams "{62151980C33AEDAD}" {
+     ResourceName "{84561BB9FB6B180F}anims/proc/steering_wheel_placeholder.pap"
+     BoneNames {
+      "v_steering_wheel"
+     }
+     AlwaysSimulateOwner 1
+    }
    }
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
