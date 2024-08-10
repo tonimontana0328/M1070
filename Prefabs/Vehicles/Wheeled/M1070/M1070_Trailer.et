@@ -1,0 +1,40 @@
+Vehicle : "{C61AA0DA23930BD5}Prefabs/Vehicles/Wheeled/M1070/M1070.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  BaseLightManagerComponent "{51E210F17D2534F7}" {
+   Enabled 1
+   EmissiveSurfaceSlots {
+    EmissiveLightSurfaceSlot Brakes {
+     Enabled 0
+    }
+    EmissiveLightSurfaceSlot Hazard {
+     Enabled 0
+    }
+    EmissiveLightSurfaceSlot Reverse {
+     Enabled 0
+    }
+    EmissiveLightSurfaceSlot Presence {
+     Enabled 0
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{DD019B91C80F61D1}Assets/Images/ArmaReforgerWorkbenchSteamDiag_gleEN1Ya4Q.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo FithWheel {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Cargo {
+     Offset 0 1.4696 -4.1068
+     Prefab "{D08AF331D59357FB}Prefabs/Vehicles/Wheeled/M923A1/M1070_container_cargo.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+ }
+ coords 92.246 0 1223.707
+}

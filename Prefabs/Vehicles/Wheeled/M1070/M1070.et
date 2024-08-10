@@ -42,84 +42,6 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
      }
     }
    }
-   m_aSignalDefinition {
-    SCR_SignalDefinition "{5E3E8D60B0ACE7B9}" {
-     m_sSignalName "EngineDamageRPMRevs"
-     m_aSignalPointDefinition {
-      SCR_SignalPointDefinition "{5E3E8D60B0ACE7BB}" {
-       m_fTimeMin 600
-       m_fTimeMax 3000
-       m_fValueMin 150
-       m_fValueMax 250
-      }
-      SCR_SignalPointDefinition "{5E3E8D60B0ACE7BA}" {
-       m_fTimeMin 100
-       m_fTimeMax 400
-       m_fValueMin 0
-       m_fValueMax 0
-      }
-      SCR_SignalPointDefinition "{5E3E8D60B0ACE7C5}" {
-       m_fTimeMin 150
-       m_fTimeMax 400
-       m_fValueMin 800
-       m_fValueMax 1200
-      }
-      SCR_SignalPointDefinition "{5E3E8D60B0ACE7C7}" {
-       m_fTimeMin 400
-       m_fTimeMax 700
-      }
-      SCR_SignalPointDefinition "{5E3E8D60B0AD6228}" {
-       m_fTimeMin 60
-       m_fTimeMax 60
-       m_fValueMin -800
-       m_fValueMax -800
-      }
-      SCR_SignalPointDefinition "{5E3E8D60B0AD622E}" {
-       m_fTimeMin 200
-       m_fTimeMax 300
-       m_fValueMin -800
-       m_fValueMax -800
-      }
-      SCR_SignalPointDefinition "{5E3E8D60B0AD622F}" {
-       m_fTimeMin 60
-       m_fTimeMax 60
-      }
-     }
-    }
-    SCR_SignalDefinition "{5E3E8D60B0AD622C}" {
-     m_sSignalName "CabinRattle"
-     m_aSignalPointDefinition {
-      SCR_SignalPointDefinition "{5E3E8D60B0AD622D}" {
-       m_fTimeMin 1000
-       m_fTimeMax 3000
-       m_fValueMin 1
-       m_fValueMax 1
-      }
-      SCR_SignalPointDefinition "{5E3E8D60B0AD5733}" {
-       m_fTimeMin 1000
-       m_fTimeMax 3000
-      }
-     }
-    }
-   }
-   m_vMins -1.2 3.5 -4
-   m_vMaxs 1.2 3.6 3.6
-  }
-  ADM_TowParent "{5E482E6F3A8E1517}" {
-   m_ReceiverType KingpinThreeAndHalfInch
-   m_JointPosition PointInfo "{5E482E6F07B867B8}" {
-    Offset 0 1.7275 -2.7786
-   }
-   m_MaxAttachDistance 1
-  }
-  BaseFlattenGrassComponent "{55FCDD8048D3AE17}" {
-   ParametersCollection {
-    FlattenGrassParametersObject "{55FCDD804A371EA5}" {
-     SideX 9
-     SideZ 3.4
-     Offset 0
-    }
-   }
   }
   BaseLightManagerComponent "{51E210F17D2534F7}" {
    LightSlots {
@@ -315,7 +237,7 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
   }
   BaseVehicleNodeComponent "{20FB66C5B2237133}" {
    components {
-    SCR_CarControllerComponent_SA "{20FB66C5BC92275B}" {
+    SCR_CarControllerComponent "{20FB66C5BC92275B}" {
      AirIntakes {
       PointInfo "{5E3E8D60B0AD571F}" {
        Offset -1.1274 2.8458 0.5624
@@ -372,6 +294,36 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
    AngularSleepingThreashold 0.5
   }
   SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{6214ED84E65ED3B9}" {
+     ContextName "door_l01"
+     Coverage 0.15
+     EntryPositionInfo PointInfo "{6214ED8496AF3C55}" {
+      Offset -1.8978 0 2.3501
+      Angles 0 90 0
+     }
+     ExitPositionInfo PointInfo "{6214ED848D7A2213}" {
+      PivotID "driver_idle"
+     }
+     AccessibilitySettings CompartmentAccessibilityContext "{6214ED84896FF164}" {
+     }
+    }
+    CompartmentDoorInfo "{6214ED84E1A52813}" {
+     AnimDoorIndex 1
+     ContextName "door_r01"
+     Coverage 0.15
+     EntryPositionInfo PointInfo "{6214ED8496AF3C55}" {
+      Offset 2.451 0 2.3501
+      Angles 0 -90 0
+     }
+     ExitPositionInfo PointInfo "{6214ED848D7A2213}" {
+      PivotID "codriver_idle"
+     }
+     AccessibilitySettings CompartmentAccessibilityContext "{6214ED84896FF164}" {
+      TraceOffset 0 0.2 1
+     }
+    }
+   }
    CompartmentSlots {
     PilotCompartmentSlot PilotCompartment {
      CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
@@ -392,7 +344,12 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
      AdditionalActions {
       SCR_RemoveCasualtyUserAction "{5D528254D8CE5491}" {
        ParentContextList {
-        "door_l01" "driver"
+        "driver"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E93B44D65}" {
+       ParentContextList {
+        "door_l01"
        }
       }
      }
@@ -400,30 +357,14 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
       PivotID "driver_idle"
      }
      DoorInfoList {
-      CompartmentDoorInfo "{50B8D5DDA17EB35D}" {
-       ContextName "door_l01"
-       EntryPositionInfo PointInfo "{50B8D5DD213DC00C}" {
-        Offset -1.8978 0 2.3501
-        Angles 0 90 0
-       }
-       ExitPositionInfo PointInfo "{5E3E8D60B0AD50F0}" {
-        PivotID "driver_idle"
-       }
-      }
-     }
-     UIInfo UIInfo "{50870A1DC44BA836}" {
-      Name "#AR-VehiclePosition_Driver"
-     }
-     AccessibilitySettings CompartmentAccessibilityContext "{528CD5B3BCA9023E}" : "{7B2204A204EB1400}Prefabs/Vehicles/Wheeled/M923A1/CompartmentAccess_M923A1.conf" {
-      BBHalfExtents 0.44 0.4 0.005
-      TraceOffset -0.3 1.45 0.75
+      0
      }
      BaseCoverage 0.15
-     m_DefaultOccupantData SCR_DefaultOccupantData "{5E3E8D60B0AD50F3}" {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6214ED847CB0B316}" {
       m_sDefaultOccupantPrefab "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
      }
     }
-    CargoCompartmentSlot Passenger_m01 : "{9BD4548866DA1807}Prefabs/Vehicles/Core/Configs/CargoCompartment_Base.conf" {
+    CargoCompartmentSlot CoDriver : "{9BD4548866DA1807}Prefabs/Vehicles/Core/Configs/CargoCompartment_Base.conf" {
      CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
       ParentContextList {
        "door_r01"
@@ -442,7 +383,12 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
      AdditionalActions {
       SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
        ParentContextList {
-        "door_r01" "passenger_r01"
+        "codriver"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "door_r01"
        }
       }
      }
@@ -451,58 +397,12 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
      }
      SeatType 1
      DoorInfoList {
-      CompartmentDoorInfo "{50B8D5DD7BC767A1}" {
-       ContextName "door_l01"
-       AnimDoorIndex 1
-       EntryPositionInfo PointInfo "{50B8D5DD78963937}" {
-        PivotID ""
-        Offset 2.451 0 2.3501
-        Angles 0 -90 0
-       }
-       ExitPositionInfo PointInfo "{5E3E8D60B0AD50E6}" {
-        PivotID "driver_idle"
-       }
-      }
-     }
-     UIInfo UIInfo "{50870A10CE897250}" {
-     }
-     AccessibilitySettings CompartmentAccessibilityContext "{528CD5B34228477D}" : "{7B2204A204EB1400}Prefabs/Vehicles/Wheeled/M923A1/CompartmentAccess_M923A1.conf" {
-      BBHalfExtents 0.44 0.4 0.005
-      TraceOffset 0.5 1.45 1.4
+      1
      }
      BaseCoverage 0.15
-     ContextName "codriver"
-     m_DefaultOccupantData SCR_DefaultOccupantData "{5E3E8D60B0ADE3F4}" {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6214ED84150D7209}" {
       m_sDefaultOccupantPrefab "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
      }
-    }
-    CargoCompartmentSlot passenger_l01 : "{6061296810AFC97E}Prefabs/Vehicles/Wheeled/M1070/Configs/CargoCompartment_M1070.conf" {
-     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
-      ParentContextList {
-       "passenger_l01"
-      }
-     }
-     PassengerPositionInfo EntitySlotInfo "5E4A9438B99BE18F" {
-      PivotID "passengerL_idle"
-     }
-     ContextName "passenger_l01"
-    }
-    CargoCompartmentSlot passenger_r01 : "{6061296810AFC97E}Prefabs/Vehicles/Wheeled/M1070/Configs/CargoCompartment_M1070.conf" {
-     PassengerPositionInfo EntitySlotInfo "5E4A9438B99BE18F" {
-      PivotID "passengerR_idle"
-     }
-     ContextName "passenger_r01"
-    }
-    CargoCompartmentSlot passenger_m01 : "{6061296810AFC97E}Prefabs/Vehicles/Wheeled/M1070/Configs/CargoCompartment_M1070.conf" {
-     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
-      ParentContextList {
-       "passenger_m01"
-      }
-     }
-     PassengerPositionInfo EntitySlotInfo "5E4A9438B99BE18F" {
-      PivotID "passengerM_idle"
-     }
-     ContextName "passenger_m01"
     }
    }
   }
@@ -583,7 +483,7 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
    MultiSlots {
     MultiSlotConfiguration "{5E3E8D60B0AE0EA1}" {
      SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et"
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
      }
      NumSlots 2
     }
@@ -693,7 +593,7 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
     }
    }
   }
-  VehicleWheeledSimulation_SA "{731B26FCA2F19855}" {
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
    Simulation Wheeled "{4D8B26DEA5F25978}" {
     SolverUpdateRate 60
     Engine Engine Engine {
@@ -853,6 +753,15 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
     }
    }
   }
+  BaseFlattenGrassComponent "{55FCDD8048D3AE17}" {
+   ParametersCollection {
+    FlattenGrassParametersObject "{55FCDD804A371EA5}" {
+     SideX 9
+     SideZ 3.4
+     Offset 0
+    }
+   }
+  }
   CarProcAnimComponent "{A201E6A6F82F2CDA}" {
    Parameters {
     ProcAnimParams "{5E3E8D60B0AE0EE5}" {
@@ -978,6 +887,7 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
     }
     RegisteringComponentSlotInfo FithWheel {
      Offset 0 0 1.1286
+     Enabled 0
      Prefab "{86988FC7CE493743}Prefabs/Vehicles/Wheeled/M1070/VehParts/M1070_5thWheel.et"
      RegisterDamage 1
     }
@@ -1292,6 +1202,8 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
     }
    }
    additionalActions {
+    SCR_ResourceEntityRefundAction "{5D5EC6128E6342C0}" : "{5AFBAF53711899E9}Configs/Resources/Supplies/Actions/Supplies_Entity_Refund.conf" {
+    }
     SCR_RepairAtSupportStationAction "{5B02B547E8F16AF2}" {
      ParentContextList {
       "hood_front"
@@ -1307,8 +1219,6 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
       "hood_front"
      }
     }
-    SCR_ResourceEntityRefundAction "{5D5EC6128E6342C0}" : "{5AFBAF53711899E9}Configs/Resources/Supplies/Actions/Supplies_Entity_Refund.conf" {
-    }
     SCR_EngineAction "{56B3068A876F0AF9}" : "{FEEF05EC7DFE19F2}Prefabs/Vehicles/Core/Configs/Actions/EngineOnAction.conf" {
      CanAggregate 1
     }
@@ -1318,6 +1228,7 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
    }
   }
   VehicleAnimationComponent "{50B803EAA459B0AF}" {
+   AnimGraph "{A270F08F211EF378}Assets/Vehicles/Wheeled/M923A1/workspaces/M923A1.agr"
    AnimInjection AnimationAttachmentInfo "{50B803EA8AD25BC8}" {
     AnimGraph "{A270F08F211EF378}Assets/Vehicles/Wheeled/M923A1/workspaces/M923A1.agr"
     AnimInstance "{B9429978D9B22BE4}Assets/Vehicles/Wheeled/M923A1/workspaces/M923A1_player.asi"
@@ -1330,4 +1241,5 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
    }
   }
  }
+ coords 84.792 0 1234.95
 }

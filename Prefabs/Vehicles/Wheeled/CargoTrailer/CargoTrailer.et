@@ -31,25 +31,6 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      }
     }
    }
-   m_vMins -1.2 2.7 -3.6
-   m_vMaxs 1.2 2.8 3.2
-  }
-  ADM_TowChild "{5E4AC862CF4E1222}" {
-   m_ReceiverType KingpinThreeAndHalfInch
-   m_JointPosition PointInfo "{5E4AC862CF4E122D}" {
-    Offset 0 1.7349 7.1604
-    Angles 0 0 0
-   }
-   m_JointBreakForce 100000
-   m_ChildBrakePercent 1
-   m_TrackSteeringStrength 0
-   m_TowSignals {
-    ADM_TowSignal "{5E4AC862CF4E122B}" {
-     m_Signal "DollyAction"
-     m_detachedValue 0
-     m_attachedValue 1
-    }
-   }
   }
   BaseLightManagerComponent "{51E210F17D2534F7}" {
    LightSlots {
@@ -85,7 +66,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
   }
   BaseVehicleNodeComponent "{20FB66C5B2237133}" {
    components {
-    SCR_CarControllerComponent_SA "{20FB66C5BC92275B}" {
+    SCR_CarControllerComponent "{20FB66C5BC92275B}" {
      MaxStartupTime 100
     }
    }
@@ -124,10 +105,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
    "faction affiliation" "US"
   }
-  SCR_VehicleWaterPhysicsComponent "{590681EE3801E5A6}" {
-   m_fBuoyancy 0.2
-  }
-  VehicleWheeledSimulation_SA "{731B26FCA2F19855}" {
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
    Simulation Wheeled "{4D8B26DEA5F25978}" {
     SolverUpdateRate 60
     AllowRotationAgainstEngine 1
@@ -217,49 +195,49 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      }
     }
     ProcAnimParams "{5E4AC862CF4FD1CB}" {
-     ResourceName "{21E337B6F88155D7}anims/proc/wheel.pap"
+     ResourceName "{6214ED80E101CE20}Assets/wheel_Copy.pap"
      BoneNames {
       "v_wheel_L01"
      }
     }
     ProcAnimParams "{5E4AC862CF4FD1F5}" {
-     ResourceName "{21E337B6F88155D7}anims/proc/wheel.pap"
+     ResourceName "{6214ED80E101CE20}Assets/wheel_Copy.pap"
      BoneNames {
       "v_wheel_L02"
      }
     }
     ProcAnimParams "{5E4AC862CF4FD1F6}" {
-     ResourceName "{21E337B6F88155D7}anims/proc/wheel.pap"
+     ResourceName "{6214ED80E101CE20}Assets/wheel_Copy.pap"
      BoneNames {
       "v_wheel_L03"
      }
     }
     ProcAnimParams "{5E4AC862CF4F5CBB}" {
-     ResourceName "{21E337B6F88155D7}anims/proc/wheel.pap"
+     ResourceName "{6214ED80E101CE20}Assets/wheel_Copy.pap"
      BoneNames {
       "v_wheel_R01"
      }
     }
     ProcAnimParams "{5E4AC862CF4F5CBA}" {
-     ResourceName "{21E337B6F88155D7}anims/proc/wheel.pap"
+     ResourceName "{6214ED80E101CE20}Assets/wheel_Copy.pap"
      BoneNames {
       "v_wheel_R02"
      }
     }
     ProcAnimParams "{5E4AC862CF4F52FC}" {
-     ResourceName "{21E337B6F88155D7}anims/proc/wheel.pap"
+     ResourceName "{6214ED80E101CE20}Assets/wheel_Copy.pap"
      BoneNames {
       "v_wheel_R03"
      }
     }
     ProcAnimParams "{5E4AC862CF4F52FB}" {
-     ResourceName "{21E337B6F88155D7}anims/proc/wheel.pap"
+     ResourceName "{6214ED80E101CE20}Assets/wheel_Copy.pap"
      BoneNames {
       "v_wheel_L04"
      }
     }
     ProcAnimParams "{5E4AC862CF4F52FA}" {
-     ResourceName "{21E337B6F88155D7}anims/proc/wheel.pap"
+     ResourceName "{6214ED80E101CE20}Assets/wheel_Copy.pap"
      BoneNames {
       "v_wheel_R04"
      }
@@ -267,6 +245,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
    }
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Enabled 1
    Slots {
     EntitySlotInfo ShadowAO {
      Offset 0 0 -2.4789
@@ -275,12 +254,14 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     }
     SCR_WheelSlotInfo Wheel_L01 {
      PivotID "v_wheel_L01"
+     Offset 0 -0.2 0
      Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
      RegisterDamage 1
      m_iWheelIndex 0
     }
     SCR_WheelSlotInfo Wheel_R01 {
      PivotID "v_wheel_R01"
+     Offset 0 -0.2 0
      Angles 0 180 0
      Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
      RegisterDamage 1
@@ -288,12 +269,14 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     }
     SCR_WheelSlotInfo Wheel_L02 {
      PivotID "v_wheel_L02"
+     Offset 0 -0.2 0
      Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
      RegisterDamage 1
      m_iWheelIndex 2
     }
     SCR_WheelSlotInfo Wheel_R02 {
      PivotID "v_wheel_R02"
+     Offset 0 -0.2 0
      Angles 0 180 0
      Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
      RegisterDamage 1
@@ -301,12 +284,14 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     }
     SCR_WheelSlotInfo Wheel_L03 {
      PivotID "v_wheel_L03"
+     Offset 0 -0.2 0
      Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
      RegisterDamage 1
      m_iWheelIndex 4
     }
     SCR_WheelSlotInfo Wheel_R03 {
      PivotID "v_wheel_R03"
+     Offset 0 -0.2 0
      Angles 0 180 0
      Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
      RegisterDamage 1
@@ -314,12 +299,14 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     }
     SCR_WheelSlotInfo Wheel_L04 {
      PivotID "v_wheel_L04"
+     Offset 0 -0.2 0
      Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
      RegisterDamage 1
      m_iWheelIndex 6
     }
     SCR_WheelSlotInfo Wheel_R04 {
      PivotID "v_wheel_R04"
+     Offset 0 -0.2 0
      Angles 0 180 0
      Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
      RegisterDamage 1
@@ -353,17 +340,8 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      }
     }
    }
-   additionalActions {
-    ADM_TowChildAction "{5E4AC862CF4C1086}" {
-     ParentContextList {
-      "TowAction_R" "TowAction_L"
-     }
-     attachString "Attach Trailer"
-     detachString "Detach Trailer"
-    }
-   }
   }
  }
- coords 0 0 0
+ coords 69.908 0 1201.635
  m_eVehicleType TRUCK
 }

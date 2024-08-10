@@ -1,0 +1,14 @@
+GenericEntity : "{D08AF331D59357FB}Prefabs/Vehicles/Wheeled/M923A1/M1070_container_cargo.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{621513F453D4EFC0}" {
+     SourceMaterial "Cargo_EXT"
+     AssignedMaterial "{7A11B91FEDCE13C8}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_01_10ft_Grey.emat"
+    }
+   }
+  }
+ }
+ coords 76.981 0 1220.009
+}

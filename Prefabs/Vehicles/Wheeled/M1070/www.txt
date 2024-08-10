@@ -1,0 +1,64 @@
+    SCR_WheelSlotInfo Wheel_L05 {
+     PivotID "v_wheel_L04"
+     Offset 0 0 -8.8065
+     Angles 0 0 0
+     Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
+     RegisterDamage 1
+     m_iWheelIndex 8
+    }
+    SCR_WheelSlotInfo Wheel_R05 {
+     PivotID "v_wheel_R04"
+     Offset 0 0 -8.8065
+     Angles 0 180 0
+     Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
+     RegisterDamage 1
+     m_iWheelIndex 9
+    }
+    SCR_WheelSlotInfo Wheel_L06 {
+     PivotID "v_wheel_L04"
+     Offset 0 0 -11.1588
+     Angles 0 180 0
+     Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
+     RegisterDamage 1
+     m_iWheelIndex 10
+    }
+    SCR_WheelSlotInfo Wheel_R06 {
+     PivotID "v_wheel_R04"
+     Offset 0 0 -11.1588
+     Angles 0 180 0
+     Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
+     RegisterDamage 1
+     m_iWheelIndex 11
+    }
+    SCR_WheelSlotInfo Wheel_L07 {
+     PivotID "v_wheel_L04"
+     Offset 0 0 -12.4602
+     Angles 0 180 0
+     Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
+     RegisterDamage 1
+     m_iWheelIndex 12
+    }
+    SCR_WheelSlotInfo Wheel_R07 {
+     PivotID "v_wheel_R04"
+     Offset 0 0 -12.4602
+     Angles 0 180 0
+     Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
+     RegisterDamage 1
+     m_iWheelIndex 13
+    }
+    SCR_WheelSlotInfo Wheel_L08 {
+     PivotID "v_wheel_L04"
+     Offset 0 0 -13.9644
+     Angles 0 180 0
+     Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
+     RegisterDamage 1
+     m_iWheelIndex 14
+    }
+    SCR_WheelSlotInfo Wheel_R08 {
+     PivotID "v_wheel_R04"
+     Offset 0 0 -13.9644
+     Angles 0 180 0
+     Prefab "{2E74B797BD3CE040}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer_Wheels.et"
+     RegisterDamage 1
+     m_iWheelIndex 15
+    }

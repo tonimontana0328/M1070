@@ -1,0 +1,90 @@
+GenericEntity : "{5A7E3ECE4599214B}Prefabs/Vehicles/Wheeled/M923A1/M923A1_cargo.et" {
+ ID "4B42E71698F5739C"
+ components {
+  BaseLightManagerComponent "{5CC4F3417221BE87}" {
+   Enabled 0
+  }
+  MeshObject "{4B42E716914465B9}" {
+   Object "{C18F31776C072B7D}Assets/Props/Industrial/CargoContainer_01/CargoContainer_01_20ft.xob"
+   Materials {
+    MaterialAssignClass "{621513F453D4EFC0}" {
+     SourceMaterial "Cargo_EXT"
+     AssignedMaterial "{36D9EECF3E50CA06}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_01_10ft_US.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{2CD4A765A7D52986}" {
+   Enabled 0
+  }
+  SlotManagerComponent "{5D834DA0C51F1876}" {
+   Slots {
+    RegisteringComponentSlotInfo SupplyStorage_06 {
+     Offset 0.625 0.2547 2.2405
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_05 {
+     Offset -0.4905 0.2547 2.2177
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_04 {
+     Offset 0.5361 0.2547 1.4067
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+     Offset -0.5695 0.2547 1.3567
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+     Offset 0.5576 0.2547 0.2661
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+     Offset -0.4582 0.2547 0.2909
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_07 {
+     Offset -0.4883 0.2547 -0.9425
+     Angles 0 -88.6018 0
+     MergePhysics 1
+     Prefab "{FE4A51A953C54DA0}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_Vehicle.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_08 {
+     Offset -0.519 0.2547 -2.2017
+     Angles 0 -88.6018 0
+     MergePhysics 1
+     Prefab "{FE4A51A953C54DA0}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_Vehicle.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_09 {
+     Offset 0.5969 0.2547 -0.7948
+     Angles 0 -88.6018 0
+     MergePhysics 1
+     Prefab "{FE4A51A953C54DA0}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_Vehicle.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_10 {
+     Offset 0.3898 0.2547 -2.1498
+     Angles 0 -88.6018 0
+     MergePhysics 1
+     Prefab "{FE4A51A953C54DA0}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_Vehicle.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+   }
+  }
+  ActionsManagerComponent "{2CD4A765B4482F53}" {
+   ActionContexts {
+    UserActionContext "{51B07C0B1D7A4CCE}" {
+     Position PointInfo "{51B07C0B75C92BE3}" {
+      Offset 0.0135 0.1414 -3.0557
+     }
+    }
+   }
+  }
+ }
+ coords 77.182 0 1228.003
+}

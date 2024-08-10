@@ -1,0 +1,30 @@
+Vehicle : "{D82ED73E9062FE65}Prefabs/Vehicles/Wheeled/M1070/M1070_Trailer.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{621513F4AA368E77}" {
+     SourceMaterial "M1070_Body"
+     AssignedMaterial "{58824A5098015DAD}Assets/Vehicles/Wheeled/M1070/Data/Tan/M1070_Body_Tan.emat"
+    }
+    MaterialAssignClass "{621513F4AA368E58}" {
+     SourceMaterial "M1070_Opacity"
+     AssignedMaterial "{0352BECFC46D8BAC}Assets/Vehicles/Wheeled/M1070/Data/Tan/M1070_Opacity_Tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{A87E9D34F1FDCFF0}Assets/Images/ArmaReforgerWorkbenchSteamDiag_0TbYVGwRv2.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cargo {
+     Prefab "{5EBD7253300B5A75}Prefabs/Vehicles/Wheeled/M923A1/M1070_container_tan_cargo.et"
+    }
+   }
+  }
+ }
+ coords 85.78 0 1217.803
+}

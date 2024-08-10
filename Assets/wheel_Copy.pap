@@ -1,0 +1,262 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 11268
+   name "Signal 11"
+   tl -704.445 -387.778
+   res "{6214ED807AB7FC8D}Assets/wheel_rot_steer_susp_Copy.siga"
+   inputsport {
+    1 2 5
+   }
+   outputsport {
+    3 4 6
+   }
+   inputvalues {
+    0 -90 -1
+   }
+   inputvaluesmin {
+    -360 -90 -1
+   }
+   inputvaluesmax {
+    360 90 1
+   }
+  }
+ }
+ funcs {
+  BoneClass {
+   id 1030
+   name "wheel"
+   version 0
+   tl -369 -568
+   outs {
+    3078 6150 9222
+   }
+   bone "v_wheel_L01"
+  }
+  RotationMakeClass {
+   id 2054
+   name "Rotation"
+   tl -368 -471
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 11268
+         port 3
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    3078
+   }
+  }
+  RotationSetClass {
+   id 3078
+   name "Rotation"
+   tl -61 -496
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 1030
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 2054
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  TranslateMakeClass {
+   id 5126
+   name "Suspension"
+   tl -366 -215
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 11268
+         port 6
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    6150
+   }
+  }
+  TranslateSetClass {
+   id 6150
+   name "Suspension"
+   tl -54 -238
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 5126
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 1030
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationMakeClass {
+   id 8198
+   name "Steering"
+   tl -371 -341
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 11268
+         port 4
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    9222
+   }
+  }
+  RotationSetClass {
+   id 9222
+   name "Steering"
+   tl -55 -365
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 1030
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 8198
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+ }
+ model "{6E1168054FC83085}Assets/Vehicles/Wheeled/M151A2/m151a2_base.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   641 385 129 1 769 513 257
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     3 131072 262144 393216 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 0 0 65536 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 262144 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 196608 0 0 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 393216 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 0 0 327680 0
+    }
+   }
+  }
+  version 2
+  argsize 13
+ }
+}

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A50345677EFE0ED6}Prefabs/Vehicles/Wheeled/CargoTrailer/CargoTrailer.et"
+ Name "{D08AF331D59357FB}Prefabs/Vehicles/Wheeled/M923A1/M1070_container_cargo.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -9,9 +9,9 @@ MetaFileClass {
   }
   EntityTemplateResourceClass PS4 : PC {
   }
-  EntityTemplateResourceClass HEADLESS : PC {
-  }
   EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
   }
  }
 }

@@ -1,9 +1,9 @@
 GameProject {
- ID "M1070"
- GUID "5E3E8D6EE4E556C7"
- TITLE "M1070"
+ ID "M1070-Fix"
+ GUID "61031068D8E95AEB"
+ TITLE "M1070-Fix"
  Dependencies {
-  "58D0FB3206B6F859" "596A1344FF649B69"
+  "58D0FB3206B6F859" 
  }
  Configurations {
   GameProjectConfig PC {
