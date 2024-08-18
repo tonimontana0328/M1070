@@ -289,7 +289,7 @@ Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
   }
   RigidBody "{51DAA09FECF52BBF}" {
    Mass 18600
-   CenterOfMass 0 2 1
+   CenterOfMass 0 1.5 1
    LinearSleepingThreashold 0.4
    AngularSleepingThreashold 0.5
   }
